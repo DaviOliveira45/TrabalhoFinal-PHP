@@ -1,0 +1,93 @@
+/*Formatação da página xbox*/
+
+div#fundoplaystation {
+    width: 100.5%;
+    margin-left: 1.6%;
+    background-color: none;
+    margin-bottom: 0;
+    margin-top: -1.2%;
+}
+
+div#fundoplaystation img{
+    width: 100%;
+    height: auto;
+}
+
+section#corpoplaystation {
+    width: 80%;
+    margin: 5% auto 2% auto;
+    padding: 3%;
+    font-family: Metrophobic;
+    padding-left: 8%;
+    background-color: none;
+}
+
+.groupcards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+div.cards {
+    width: calc(19.19% - 10px);
+    background-color: rgb(3, 40, 47);
+    border: none;
+    border-radius: 4px;
+    padding: 2%;
+    margin: 1%;
+}
+
+div.cards img {
+    max-width: 110%;
+    height: auto;
+    margin-left: -4.8%;
+    margin-top: -4.8%;
+}
+
+div.cards p.titulojogo {
+    font-size: 1.2em;
+    margin-top: 0.5%;
+    margin-bottom: 15%;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+div.cards p.titulojogolongo {
+    font-size: 1.2em;
+    margin-top: -15%;
+    margin-bottom: 0;
+    cursor: pointer;
+
+}
+
+div.cards p.titulojogo a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+div.cards p.preco {
+    font-size: 1.6em;
+    margin-bottom: 1.1%;
+    font-weight: 580;
+}
+
+div.cards button.comprar {
+    width: 110%;
+    padding: 3%;
+    font-size: 1.1em;
+    margin-top: 3.5%;
+    margin-left: -4.8%;
+    border-radius: 6px;
+    background-color: rgba(4, 238, 74, 0.822);
+    color: white;
+    border: 2px solid rgba(4, 238, 74, 0.822);
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+div.cards button.comprar:hover {
+    background-color: rgb(3, 40, 47);
+    color: rgba(4, 238, 74, 0.822);
+
+}

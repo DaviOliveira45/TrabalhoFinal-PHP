@@ -1,0 +1,62 @@
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2% 0;
+    font-family: Metrophobic, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+thead {
+    background-color: rgba(5, 20, 24, 0.8);
+}
+
+thead th {
+    padding: 1%;
+    text-align: left;
+    border-bottom: 2px solid #0d3840;
+}
+
+tbody tr {
+    background-color: rgba(9, 28, 30, 0.8);
+    transition: background-color 0.3s;
+}
+
+tbody tr:hover {
+    background-color: rgba(4, 238, 74, 0.3);
+    cursor: pointer;
+}
+
+tbody td {
+    padding: 1%;
+    border-bottom: 1px solid #0d3840;
+}
+
+a {
+    color: rgba(4, 238, 74, 0.822);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: white;
+}
+
+/* General Styles */
+body {
+    background-color: rgba(9, 28, 30, 1);
+    color: white;
+    font-family: Metrophobic, sans-serif;
+    margin-left: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: Metrophobic, sans-serif;
+    padding: 2% 0;
+}
+
+div {
+    padding: 2%;
+}
